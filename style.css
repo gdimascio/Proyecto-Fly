@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+* a{
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body{
+    font-family: 'Source Code Pro';
+    background-color: black;
+}
+
+
+
+.img{
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    height: 500px;
+}
+.tec-window{
+    min-height: 500px;
+
+}
+.tec-window > img{
+    max-width: 20px;
+    max-height: 20px;
+    position: absolute;
+    transition-duration: 4s;
+}

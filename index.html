@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./script.js"></script>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/0fce3c0945.js" crossorigin="anonymous"></script>
+
+    <!-- icon -->
+    <link rel="icon" href="../img/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Source+Code+Pro:wght@200;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8GTTQL61K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-B8GTTQL61K');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly</title>
+</head>
+
+<body>
+    <img class="img" src="./night-sky.jpg" alt="">
+    <div class="tec-window">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+        <img src="./fly.png" id="__img">
+
+        <script>
+            var imgs = document.querySelectorAll("#__img");
+            driftImage();
+            setInterval(driftImage, 3000);
+        </script>
+    </div>
+
+</body>
+</html>
